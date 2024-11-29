@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body>
+    <form action="login.php" method="POST">
+        <fieldset>
+        <legend align="center">Biodata</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="Nama" placeholder="Nama..." />
+        </p>
+        <p>
+            <label>Umur:</label>
+            <input type="text" name="umur" placeholder="Umur..." />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Tempat Lahir:</label>
+            <input type="text" name="Tempat Lahir" placeholder="Tempat Lahir..." />
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal" />
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <input type="text" name="Alamat" placeholder="Alamat..." />
+        </p>
+        <p>
+            <label>Kota:</label>
+            <select name="Kota">
+                <option value="Surabaya">Surabaya</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Makassar">Makassar</option>
+                <option value="Depok">Depok</option>
+                <option value="Bali">Bali</option>
+                <option value="Semarang">Semarang</option>
+                <option value="Pare-Pare">Pare-pare</option>
+                <option value="Tanggerang">Tanggerang</option>
+                <option value="Manado">Manado</option>
+            </select>
+        </p>
+        <p>
+            <label>Provinsi:</label>
+            <select name="Provinsi">
+                <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                <option value="Sulawesi Barat">Sulawesi Barat</option>
+                <option value="Sumatera Barat">Sumatera Barat</option>
+                <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                <option value="Bengkulu">Bengkulu</option>
+                <option value="Riau">Riau</option>
+                <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                <option value="Gorontalo">Gorontalo</option>
+                <option value="Banda Aceh">Banda Aceh</option>
+                <option value="Sumatera Utara">Sumatera Utara</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Submit" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>halamanlogin</title>
+  <link rel="stylesheet" href="halaman login.css">
+</head>
+<body>
+  <div class="login-wrapper">
+    <div class="login-container">
+      <div class="login-header">
+        <h2><b>Halaman Login</b></h2>
+        <p><b> isi ki dibawah</b></p>
+        <div class="input-group">
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <button id="open-popup">Login</button>
+    </div>
+  </div>
+
+  <dialog id="confirmation-dialog">
+    <h2>Halaman ini menyatakan!</h2>
+    <p>yakin jki mau lanjut kehalaman selanjutnya?</p>
+    <div class="control">
+        <button class="iya">iye mauja</button>
+        <button id="tidak">tidak mauja</button>
+    </div>
+    </dialog>
+
+  <script src="halaman login.js"></script>
+</body>
+</html>
